@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background: #ffeae8;
+}
+header{
+	padding: 4px 0;
+	background: #292828;
+	color: white;
+}
+nav.menu ul{
+	list-style-type: none;
+}
+
+nav.menu li{
+	display: inline-block;
+	padding: 0 8px;
+}
+nav.menu a{
+	color: white;
+	text-decoration: none;
+}
+.logo {
+
+	float: left;
+	color: white;
+	margin: 8px auto;
+	padding: 0 4%;
+
+}
+.clear{clear: both;}
+
+nav.menu{
+	position: relative;
+	top: 4px;
+	float: right;
+}
+.center{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
